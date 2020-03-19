@@ -2,11 +2,11 @@ html {
   font-family: Noto Serif, serif;
 }
 
-body {
+body, .btn {
   background-color: #70ad55;
 }
 
-h1, p {
+h1, p, footer {
   padding-left: 1rem;
   color: #fff;
   padding-top: 1rem;
@@ -15,21 +15,37 @@ h1, p {
 input, textarea {
 border: 2px solid #6e8c62;
 }
+
 .container {
   padding: 2.6rem 1rem;
   background-color: #fff;
 }
+
 .top-green {
   margin: 0;
 
   padding: 1rem;
 }
 .btn {
-  padding: .15rem .5rem;
+  padding: .5rem 2rem;
+  border-color: #70ad55;
+  color: #fff;
 }
+
 fieldset {
   border-top: none;
   border-bottom:  2px solid #70ad55;
+}
+.option{
+  color:#70ad55;
+}
+
+textarea {
+  max-width: 100%;
+  min-height: 8em;
+}
+.apply {
+  border-color: #6e8c62;
 }
 
 @media only screen and (min-width: 60em) {
