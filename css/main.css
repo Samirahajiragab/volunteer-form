@@ -1,5 +1,5 @@
 html {
-  font-family: Noto Serif, serif;
+  font-family: "Noto Serif", serif;
 }
 
 body, .btn {
@@ -46,10 +46,4 @@ textarea {
 }
 .apply {
   border-color: #6e8c62;
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
 }
