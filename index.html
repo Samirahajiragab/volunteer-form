@@ -20,7 +20,7 @@
 
         <legend class="mega bold">Personal details</legend>
 
-        <div class=" grid grid-stretch">
+        <div class="apply tera grid grid-stretch">
           <div class="name unit xs-1 s-1 m-1-2 l-1-2 push pad-t-3-4">
             <label for="fullname">Full name</label>
             <input id="fullname" required>
@@ -71,7 +71,7 @@
 
       <fieldset>
         <legend class="mega bold">Address</legend>
-        <div class=" grid content-stretch">
+        <div class="apply tera grid content-stretch">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-t-3-4">
             <label for="address">Street address</label>
             <input id="address" required>
@@ -109,7 +109,7 @@
       </fieldset>
       <fieldset>
         <h2 class="giga bold push-3-4">What activities are you interested in helping with?</h2>
-        <div class="grid content-stretch">
+        <div class=" grid content-stretch">
           <input id="holes" type="checkbox">
           <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="holes">Digging holes</label>
 
@@ -136,7 +136,7 @@
         </div>
         <h2 class="giga bold push-3-4">Do you have any experience with the following?</h2>
 
-        <div class="grid content-stretch">
+        <div class=" apply grid content-stretch">
           <input id="shovels" type="checkbox">
           <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="shovels">Shovels</label>
 
@@ -171,7 +171,7 @@
 
       </fieldset>
       <fieldset>
-        < <legend class="gutter-1-2 giga">Do you have a valid driver’s license?</legend>
+        <legend class="gutter-1-2 giga">Do you have a valid driver’s license?</legend>
 
         <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
           <input type="radio" id="license-yes" name="license" required>
@@ -184,28 +184,28 @@
           </div>
       </fieldset>
       <fieldset>
-        < <legend class="gutter-1-2 giga">Do you have a pick-up truck you’d be willing to use?</legend>
+        <legend class="gutter-1-2 giga">Do you have a pick-up truck you’d be willing to use?</legend>
 
         <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
-          <input type="radio" id="license-yes" name="Truck" required>
+          <input type="radio" id="Truck-yes" name="Truck" required>
           <label for="Truck-yes">Yes</label>
         </div>
 
         <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 ">
-          <input type="radio" id="license-no" name="Truck" required>
+          <input type="radio" id="Truck-no" name="Truck" required>
           <label for="Truck-no">No</label>
           </div>
       </fieldset>
-      <fieldset>
-        < <legend class="gutter-1-2 giga">Do you have up-to-date first-aid certification?</legend>
+      <fieldset class="apply pad-b">
+        <legend class="gutter-1-2 giga">Do you have up-to-date first-aid certification?</legend>
 
         <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
-          <input type="radio" id="license-yes" name="certification" required>
+          <input type="radio" id="certification-yes" name="certification" required>
           <label for="certification-yes">Yes</label>
         </div>
 
         <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 ">
-          <input type="radio" id="license-no" name="certification" required>
+          <input type="radio" id="certification-no" name="certification" required>
           <label for="certification-no">No</label>
           </div>
       </fieldset>
@@ -219,6 +219,6 @@
       </div>
     </form>
   </header>
-  <footer>© Tree Hugger International Organization</footer>
+  <footer class="text-center"> <cite>© Tree Hugger International Organization</cite></footer>
 </body>
 </html>

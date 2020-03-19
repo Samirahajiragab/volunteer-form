@@ -41,7 +41,6 @@ input, textarea {
 
 fieldset {
   border-top: none;
-  border-bottom: 2px solid #70ad55;
 }
 
 .option {
@@ -54,5 +53,5 @@ textarea {
 }
 
 .apply {
-  border-color: #6e8c62;
+  border-bottom: 2px solid #70ad55;
 }
