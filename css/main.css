@@ -6,18 +6,24 @@ body, .btn {
   background-color: #70ad55;
 }
 
-h1, p, footer {
-  padding-left: 1rem;
+h1, footer {
+  padding-left: .5rem;
   color: #fff;
-  padding-top: 1rem;
+  padding-top: 1.3rem;
 }
 
+p {
+  padding-bottom: .2rem;
+  padding-top: 1rem;
+  padding-left: .8rem;
+  color: #fff;
+}
 input, textarea {
   border: 2px solid #6e8c62;
 }
 
 .container {
-  padding: 2.6rem 1rem;
+  padding: 2.6rem .7rem;
   background-color: #fff;
 }
 
