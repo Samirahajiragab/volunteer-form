@@ -171,30 +171,44 @@
 
       </fieldset>
       <fieldset>
-        <div class="grid">
-          <label class="unit xs-1 s-1 m-1 l-1 micro bold pad-b">Do you have a valid driver’s license?</label>
-          <input id="yes" type="radio" name="yesno">
-          <label class="unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="yes"> Yes</label>
+        < <legend class="gutter-1-2 giga">Do you have a valid driver’s license?</legend>
 
-          <input id="nooo" type="radio" name="yesno">
-          <label class="unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="no">NO</label>
-
-          <label class="unit xs-1 s-1 m-1 l-1 micro bold pad-b">Do you have a pick-up truck you’d be willing to use?</label>
-          <input id="yess" type="radio" name="yesno">
-          <label class="unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="yes"> Yes</label>
-
-          <input id="no" type="radio" name="yesno">
-          <label class="unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="no">NO</label>
-
-          <label class="unit xs-1 s-1 m-1 l-1 micro bold pad-b">Do you have up-to-date first-aid certification?</label>
-          <input id="yese" type="radio" name="yesono">
-          <label class="unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="yes"> Yes</label>
-
-          <input id="noo" type="radio" name="yesono">
-          <label class=" unit xs-1-4 s-1-4 m-1-4 l-1-4 micro pad-b" for="no">NO</label>
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
+          <input type="radio" id="license-yes" name="license" required>
+          <label for="license-yes">Yes</label>
         </div>
-      </fieldset>
 
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 ">
+          <input type="radio" id="license-no" name="license" required>
+          <label for="license-no">No</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        < <legend class="gutter-1-2 giga">Do you have a pick-up truck you’d be willing to use?</legend>
+
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
+          <input type="radio" id="license-yes" name="Truck" required>
+          <label for="Truck-yes">Yes</label>
+        </div>
+
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 ">
+          <input type="radio" id="license-no" name="Truck" required>
+          <label for="Truck-no">No</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        < <legend class="gutter-1-2 giga">Do you have up-to-date first-aid certification?</legend>
+
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 push-r-1-2">
+          <input type="radio" id="license-yes" name="certification" required>
+          <label for="certification-yes">Yes</label>
+        </div>
+
+        <div class="inline-block pad-t-1-8 pad-b-1-8 gutter-1-2 ">
+          <input type="radio" id="license-no" name="certification" required>
+          <label for="certification-no">No</label>
+          </div>
+      </fieldset>
       <fieldset class="pad-b">
         <legend class="mega">Please let us know any comments or questions you may have.<span class="option italic">(optional)</span></legend>
         <textarea id="details" required></textarea>
