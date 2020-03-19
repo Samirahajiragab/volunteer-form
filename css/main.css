@@ -13,7 +13,7 @@ h1, p, footer {
 }
 
 input, textarea {
-border: 2px solid #6e8c62;
+  border: 2px solid #6e8c62;
 }
 
 .container {
@@ -26,6 +26,7 @@ border: 2px solid #6e8c62;
 
   padding: 1rem;
 }
+
 .btn {
   padding: .5rem 2rem;
   border-color: #70ad55;
@@ -34,16 +35,18 @@ border: 2px solid #6e8c62;
 
 fieldset {
   border-top: none;
-  border-bottom:  2px solid #70ad55;
+  border-bottom: 2px solid #70ad55;
 }
-.option{
-  color:#70ad55;
+
+.option {
+  color: #70ad55;
 }
 
 textarea {
   max-width: 100%;
   min-height: 8em;
 }
+
 .apply {
   border-color: #6e8c62;
 }
