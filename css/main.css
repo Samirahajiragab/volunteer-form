@@ -7,15 +7,11 @@ body, .btn {
 }
 
 h1, footer {
-  padding-left: .5rem;
   color: #fff;
-  padding-top: 1.3rem;
 }
 
 p {
-  padding-bottom: .2rem;
-  padding-top: 1rem;
-  padding-left: .8rem;
+
   color: #fff;
 }
 input, textarea {
