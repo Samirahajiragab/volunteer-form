@@ -2,7 +2,7 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-body, .btn {
+.green-bg, .btn {
   background-color: #70ad55;
 }
 
@@ -11,9 +11,9 @@ h1, footer {
 }
 
 p {
-
   color: #fff;
 }
+
 input, textarea {
   border: 2px solid #6e8c62;
 }
@@ -23,11 +23,6 @@ input, textarea {
   background-color: #fff;
 }
 
-.top-green {
-  margin: 0;
-
-  padding: 1rem;
-}
 
 .btn {
   padding: .5rem 2rem;

@@ -11,9 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1 class="exa bold push-0 gutter-1-2 pad-t ">Apply to be a tree planter</h1>
-    <p class="mega bold pad-t-1-2 gutter-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="pad-t-1-8 pad-b push-0 green-bg">
+    <div class="wrapper">
+      <h1 class="exa bold push-0 gutter-1-2 pad-t ">Apply to be a tree planter</h1>
+      <p class="mega bold pad-t-1-2 gutter-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
   </header>
   <form class="push-0 container wrapper" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
 
@@ -111,63 +113,127 @@
     <fieldset>
       <legend class="giga bold push-3-4">What activities are you interested in helping with?</legend>
       <div class=" grid">
-        <input id="holes" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="holes">Digging holes</label>
-
-        <input id="dirty" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="dirty">Getting dirty</label>
-
-        <input id="objects" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="objects">Lifting heavy objects</label>
-
-        <input id="drive" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="drive">Driving people</label>
-
-        <input id="trees" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="trees">Transporting trees</label>
-
-        <input id="photos" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="photos">Taking photos</label>
-
-        <input id="publishing" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="publishing">Online publishing</label>
-
-        <input id="managing" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b" for="managing">Managing people</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="holes" type="checkbox">
+            <label for="holes">Digging holes</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="dirty" type="checkbox">
+            <label for="dirty">Getting dirty</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="objects" type="checkbox">
+            <label for="objects">Lifting heavy objects</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="drive" type="checkbox">
+            <label for="drive">Driving people</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="trees" type="checkbox">
+            <label for="trees">Transporting trees</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="photos" type="checkbox">
+            <label for="photos">Taking photos</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="publishing" type="checkbox">
+            <label for="publishing">Online publishing</label>
+          </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="managing" type="checkbox">
+            <label for="managing">Managing people</label>
+          </div>
+        </div>
       </div>
       <h2 class="giga bold push-3-4">Do you have any experience with the following?</h2>
 
-      <div class="grid content-stretch">
-        <input id="shovels" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="shovels">Shovels</label>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="shovels" type="checkbox">
+            <label for="shovels">Shovels</label>
+          </div>
+        </div>
 
-        <input id="hand" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="hand">Hand-held GPS</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="hand" type="checkbox">
+            <label for="hand">Hand-held GPS</label>
+          </div>
+        </div>
 
-        <input id="writingblogging" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="writingblogging">Writing & blogging</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="writingblogging" type="checkbox">
+            <label for="writingblogging">Writing & blogging</label>
+          </div>
+        </div>
 
-        <input id="photography" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="photography">Photography</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="photography" type="checkbox">
+            <label for="photography">Photography</label>
+          </div>
+        </div>
 
-        <input id="trail" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="trail">Trail & hill climbing</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="trail" type="checkbox">
+            <label for="trail">Trail & hill climbing</label>
+          </div>
+        </div>
 
-        <input id="bushcraft" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="bushcraft">Bush craft</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="bushcraft" type="checkbox">
+            <label for="bushcraft">Bush craft</label>
+          </div>
+        </div>
 
-        <input id="atvs" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="atvs">ATVs</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="atvs" type="checkbox">
+            <label for="atvs">ATVs</label>
+          </div>
+        </div>
 
-        <input id="identification" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="identification">Plant identification</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="identification" type="checkbox">
+            <label for="identification">Plant identification</label>
+          </div>
+        </div>
 
-        <input id="planning" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b-1-4" for="planning">Special event planning</label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="planning" type="checkbox">
+            <label for="planning">Special event planning</label>
+          </div>
+        </div>
 
-        <input id="groups" type="checkbox">
-        <label class="unit xs-1 s-1 m-1-2 l-1-2 giga pad-b" for="groups">Speaking to groups</label>
-
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
+            <input id="groups" type="checkbox">
+            <label for="groups">Speaking to groups</label>
+          </div>
+        </div>
       </div>
 
     </fieldset>
@@ -220,6 +286,6 @@
     </div>
     <hr class="pad-b-1-2">
   </form>
-  <footer class="text-center"> <cite>© Tree Hugger International Organization</cite></footer>
+  <footer class=" green-bg text-center"> <cite>© Tree Hugger International Organization</cite></footer>
 </body>
 </html>
