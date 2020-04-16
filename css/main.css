@@ -13,8 +13,8 @@ footer {
   color: #fff;
 }
 
-input, textarea, select{
-  border-color:#6e8c62;
+input, textarea, select {
+  border-color: #6e8c62;
 }
 
 input, textarea {
@@ -26,15 +26,14 @@ input, textarea {
   background-color: #fff;
 }
 
-
 .btn {
-  background-color:#6e8c62;
-  border-color:#6e8c62;
+  background-color: #6e8c62;
+  border-color: #6e8c62;
   color: #fff;
 }
 
 hr {
-  border-color:;#70ad55;
+  border-color: #70ad55;
   border-width: thin;
 }
 
@@ -67,4 +66,5 @@ fieldset {
   .email {
     padding-right: 1.25em;
   }
+
 }
