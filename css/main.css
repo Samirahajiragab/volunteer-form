@@ -1,17 +1,20 @@
 html {
   font-family: "Noto Serif", serif;
+  border: 1rem;
 }
 
-.green-bg, .btn {
+header {
   background-color: #70ad55;
-}
-
-h1, footer {
   color: #fff;
 }
 
-p {
+footer {
+  background-color: #70ad55;
   color: #fff;
+}
+
+input, textarea, select{
+  border-color:#6e8c62;
 }
 
 input, textarea {
@@ -25,9 +28,14 @@ input, textarea {
 
 
 .btn {
-  padding: .5rem 2rem;
-  border-color: #70ad55;
+  background-color:#6e8c62;
+  border-color:#6e8c62;
   color: #fff;
+}
+
+hr {
+  border-color:;#70ad55;
+  border-width: thin;
 }
 
 fieldset {
@@ -38,11 +46,25 @@ fieldset {
   color: #70ad55;
 }
 
-textarea {
-  max-width: 100%;
-  min-height: 8em;
-}
+@media only screen and (min-width: 32em) {
 
-.apply {
-  border-bottom: 2px solid #70ad55;
+  .name {
+    padding-right: 1.25em;
+  }
+
+  .street {
+    padding-right: 1.25em;
+  }
+
+  .region {
+    padding-right: 1.25em;
+  }
+
+  .date {
+    padding-right: 1.25em;
+  }
+
+  .email {
+    padding-right: 1.25em;
+  }
 }
