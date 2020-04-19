@@ -13,17 +13,16 @@ footer {
   color: #fff;
 }
 
-input, textarea, select {
+input {
   border-color: #6e8c62;
 }
 
-input, textarea {
-  border: 2px solid #6e8c62;
+textarea {
+  border-color: #6e8c62;
 }
 
-.container {
-  padding: 2.6rem .7rem;
-  background-color: #fff;
+select {
+  border-color: #6e8c62;
 }
 
 .btn {
@@ -35,14 +34,6 @@ input, textarea {
 hr {
   border-color: #70ad55;
   border-width: thin;
-}
-
-fieldset {
-  border-top: none;
-}
-
-.option {
-  color: #70ad55;
 }
 
 @media only screen and (min-width: 32em) {
